@@ -107,7 +107,7 @@ while (playGame == "y")
         playerGuess = Console.ReadLine();
 
         //help keep track of what the player has put into string
-        guess = playerGuess[0]; 
+        guess = playerGuess[0];
 
         //Check to see if the guess is correct
         if (word.Contains(guess.ToString()))
@@ -115,7 +115,7 @@ while (playGame == "y")
             //update with correct guess
             for (int i = 0; i < word.Length; i++)
             {
-                if (word[i] == guess) 
+                if (word[i] == guess)
                     gameWord[i] = guess;
             }
 
@@ -141,6 +141,7 @@ while (playGame == "y")
             }
         }
     }
+    //Tell the word
     if (new string(gameWord.ToArray()) == word)
     {
         Console.WriteLine("You guessed the word! It was: " + word);
@@ -149,7 +150,7 @@ while (playGame == "y")
     {
         Console.WriteLine("Game over! The word was: " + word);
     }
-
+//ask to play again
     Console.WriteLine("Play again? y/n");
     playGame = Console.ReadLine();
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HangmanMidterm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d82d6a1083681e1c5157992831dccef91dfa0a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da5ccf7ba4a8a368b0b7b7c53a589bfb018440dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("HangmanMidterm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HangmanMidterm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
